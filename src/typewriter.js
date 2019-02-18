@@ -13,6 +13,9 @@ template.innerHTML = `
         .ti-cursor {
           animation: blink 1s infinite;
         }
+        p {
+            white-space: pre-wrap;
+        }
       
     </style>
     <p></p>
