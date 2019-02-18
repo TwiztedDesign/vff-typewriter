@@ -1,8 +1,8 @@
 {
   "name": "vff-typewriter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/vff-ext.js",
   "scripts": {
     "test": "jest --coverage --no-cache",
     "test-watch": "jest --watchAll",
