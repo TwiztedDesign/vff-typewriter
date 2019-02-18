@@ -98,7 +98,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var template = document.createElement('template');
-template.innerHTML = '\n    <style>\n    \n        @keyframes blink {\n          0% {opacity: 0}\n          49% {opacity: 0}\n          50% {opacity: 1}\n        }\n\n        .ti-cursor {\n          animation: blink 1s infinite;\n        }\n        p {\n            display: flex;\n            margin: 0;\n            white-space: pre-wrap;\n        }\n        p span.ti-wrapper{\n            display: flex;\n        }\n      \n    </style>\n    <p></p>\n';
+template.innerHTML = '\n    <style>\n    \n        @keyframes blink {\n          0% {opacity: 0}\n          49% {opacity: 0}\n          50% {opacity: 1}\n        }\n\n        .ti-cursor {\n          animation: blink 1s infinite;\n        }\n        p {\n            display: flex;\n            margin: 0;\n            white-space: pre-wrap;\n        }\n        p span.ti-wrapper{\n            display: flex !important;\n        }\n        \n      \n    </style>\n    <p></p>\n';
 
 var defaultTypeOptions = {
     cursor: false,

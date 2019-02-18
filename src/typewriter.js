@@ -19,8 +19,9 @@ template.innerHTML = `
             white-space: pre-wrap;
         }
         p span.ti-wrapper{
-            display: flex;
+            display: flex !important;
         }
+        
       
     </style>
     <p></p>
