@@ -18,7 +18,7 @@ template.innerHTML = `
             margin: 0;
             white-space: pre-wrap;
         }
-        .ti-wrapper{
+        p span.ti-wrapper{
             display: flex;
         }
       
