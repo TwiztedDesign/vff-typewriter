@@ -14,7 +14,12 @@ template.innerHTML = `
           animation: blink 1s infinite;
         }
         p {
+            display: flex;
+            margin: 0;
             white-space: pre-wrap;
+        }
+        .ti-wrapper{
+            display: flex;
         }
       
     </style>
