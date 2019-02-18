@@ -1,5 +1,5 @@
 {
-  "name": "vff-extension-boilerplate",
+  "name": "vff-typewriter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -26,14 +26,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TwiztedDesign/vff-extension-boilerplate.git"
+    "url": "git+https://github.com/TwiztedDesign/vff-typewriter.git"
   },
   "author": "Danny Umansky <dok.umansky@twizted-design.com> (http://www.twizted-design.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TwiztedDesign/vff-extension-boilerplate/issues"
+    "url": "https://github.com/TwiztedDesign/vff-typewriter/issues"
   },
-  "homepage": "https://github.com/TwiztedDesign/vff-extension-boilerplate#readme",
+  "homepage": "https://github.com/TwiztedDesign/vff-typewriter#readme",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.0",
@@ -73,5 +73,8 @@
       "src/**/*.js"
     ],
     "coveragePathIgnorePatterns": []
+  },
+  "dependencies": {
+    "typeit": "6.0.2"
   }
 }
