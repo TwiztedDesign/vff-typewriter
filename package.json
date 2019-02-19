@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/typewriter.js",
   "scripts": {
-    "test"            : "echo \"Error: no test specified",
+    "test"            : "echo \"Error: no test specified\"",
     "watch"           : "parcel watch src/typewriter.js",
     "build"           : "parcel build src/typewriter.js",
     "preversion"      : "npm run lint",
