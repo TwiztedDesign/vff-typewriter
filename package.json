@@ -1,13 +1,16 @@
 {
   "name": "vff-typewriter",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "main": "dist/typewriter.js",
   "scripts": {
-    "watch"   : "parcel watch src/typewriter.js",
-    "build"   : "parcel build src/typewriter.js",
-    "prepublish" : "npm run build",
-    "publish" : "npm publish "
+    "test"            : "echo \"Error: no test specified",
+    "watch"           : "parcel watch src/typewriter.js",
+    "build"           : "parcel build src/typewriter.js",
+    "preversion"      : "npm run lint",
+    "lint"            : "eslint src",
+    "prepare"         : "npm run build",
+    "prepublishOnly"  : "npm test && npm run lint"
   },
   "files": [
     "dist",
